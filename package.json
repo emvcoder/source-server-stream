@@ -1,0 +1,23 @@
+{
+  "name": "source-server-stream",
+  "version": "1.0.1",
+  "main": "index.js",
+  "author": "Max Ersh",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emvcoder/source-server-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emvcoder/source-server-stream/issues"
+  },
+  "homepage": "https://github.com/emvcoder/source-server-stream",
+  "dependencies": {
+    "iconv-lite": "*",
+    "bufferpack": "*",
+    "dgram-stream": "*"
+  },
+  "engines": {
+    "node": "6.x"
+  }
+}
