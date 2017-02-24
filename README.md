@@ -21,7 +21,7 @@ var server = new SourceStream({
   request_info: true,
   request_players: true,
   timeout_server: 500,
-  timeout_end: 500
+  timeout: 500
 });
 
 server.write({ address: '123.123.123.123', port: 27015 });
