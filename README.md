@@ -1,7 +1,7 @@
 Source Server Stream
 =============================
 
-This library save your time when you need to write a tool which returns main information and gets players list from Valve game servers.
+This library save your time when you need to write a tool which returns main information and gets players list from Valve game servers. Made with love and dgram-stream xD
 
 ```shell
 npm install source-server-stream
@@ -18,10 +18,10 @@ npm install source-server-stream
 ```javascript
 var SourceStream = require('source-server-stream');
 var server = new SourceStream({
-  request_info: true,
-  request_players: true,
-  timeout_server: 500,
-  timeout: 500
+  timeout: 1000,
+	timeout_end: 1500,
+	request_info: true,
+	request_players: true
 });
 
 server.write({ address: '123.123.123.123', port: 27015 });
