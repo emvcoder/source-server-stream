@@ -19,9 +19,9 @@ npm install source-server-stream
 var SourceStream = require('source-server-stream');
 var server = new SourceStream({
   timeout: 1000,
-	timeout_end: 1500,
-	request_info: true,
-	request_players: true
+  timeout_end: 1500,
+  request_info: true,
+  request_players: true
 });
 
 server.write({ address: '123.123.123.123', port: 27015 });
