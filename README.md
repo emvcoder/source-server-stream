@@ -7,13 +7,13 @@ This library save your time when you need to write a tool which returns main inf
 npm install source-server-stream
 ```
 
-###Supported games:
+## Supported games:
 * Half-life
 * Counter-Strike 1.6
 * Counter-Strike: Source
 * Counter-Strike: Global Offensive
 
-###Example usage
+## Example usage
 
 ```javascript
 var SourceStream = require('source-server-stream');
@@ -39,11 +39,11 @@ server.on('end', (data) => {
 });
 ```
 
-##Input data
+## Input data
 * server address
 * server port
 
-##Output data
+## Output data
 * the title of the server
 * сurrent map
 * number of players and players list
